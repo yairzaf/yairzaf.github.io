@@ -1,0 +1,155 @@
+
+<!--only used bootstrap for the navbar, and google-fonts and fontawesome. every other thing is done by me in pure js/css-->
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset='utf-8'>
+        <title>Yair Zafrany.</title>
+        <!-- favicon-->
+        <link rel="shortcut icon" href="favicon.ico" />
+
+
+        <!-- fonts-->    
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|IBM+Plex+Sans|Libre+Franklin|Patua+One|Press+Start+2P|Prompt&display=swap" rel="stylesheet"> 
+        <!-- icons -->
+        <script src="https://kit.fontawesome.com/78c1a19a26.js"></script>
+
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+        <!--my css-->
+        <link rel="stylesheet" href="css/styles.css">
+
+	</head>
+	<body>
+        <!--japanese characters background(check js)-->
+        <canvas id="bganima" width="0px" height="0px">
+
+        </canvas>
+        <!-- nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="navb">
+            <a class="navbar-brand" href="">{ Y Z }</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                        <a href="index.html#site-header" class="nav-link"><button type="button" class="btn btn-link">Home <i class="fas fa-home"></i></button></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="index.html#about" class="nav-link"><button type="button" class="btn btn-link">About <i class="fas fa-address-card"></i></button></a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="index.html#contact" class="nav-link"><button type="button" class="btn btn-link">Contact <i class="fas fa-envelope"></i></button></a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="index.html#projects" class="nav-link"><button type="button" class="btn btn-link">Projects <i class="fas fa-folder-open"></i></button></a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!-- header  &  console animation-->
+        <div id="site-header">
+            <span id="title"><i class="far fa-address-book"></i> Yair Zafrany - Showcase.</span>
+            <div id="console">
+                <span id="anim-header" class="console-text"></span><span id="blinker" class="console-text">|</span>
+            </div>
+        </div>
+        
+        <hr class="seperator">
+        <!-- about -->
+        
+        <div class="sect-container" id="about">
+            
+            <span class="sect-title sect-gen"><i class="fas fa-address-card"></i> About Me.</span>
+            <div  class="sect-content sect-gen">
+                <p>
+                I'm a self-taught programmer, it's my hobby to develop and create. I've meddled with different technologies over the years.
+                I posses the basic needed computer science theoretical knowledge of data structures, object-oriented, set theory, complexity and etc.
+                My practical experience from this hobby ranges in different fields like game development, basic embedded, security and web. I'm adapted in majority main-stream languages.
+                I'm looking for an entry-level job in any technical position, open to but not limited to: full-stack, game-dev, R&D, automation, DevOps. Open to IT positions if you find me suitable.
+                I'm not interested in: pure manual QA, help desk, technical support etc. In addition I'm open to free training/volunteering programs that guarantee/offer a job.
+                </p>    
+            </div>
+            <!-- specific skills, see no need in it.
+            <span id="skills-dropdown"><i class="fas fa-plus"></i> Technicall knowledge In Detail.</span>
+            <div  class="container" id="skills-table">
+                <div class="row">
+                    <div class="col">C</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col">C++</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col">ASSEMBLY X86/64</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col">PYTHON</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col">LUA</div>
+                    <div class="col"></div>
+                </div>
+                <div class="row">
+                    <div class="col">C#</div>
+                    <div class="col"></div>
+                </div>
+            </div>-->
+        </div>
+        
+        <hr class="seperator">
+        <!-- contact -->
+        <div class="sect-container" id="contact">
+            
+            <span class="sect-title sect-gen"><i class="fas fa-envelope"></i> Contact Me.</span>
+            <div  class="sect-content sect-gen">
+                <p>
+                Please send an email to: <span id="my-email"><a href="mailto:jair.zefran@gmail.com">jair.zefran@gmail.com</a></span>. i will provide a phone number via email, if needed for further communication.
+                or you can come and chat with me on <a href="https://www.linkedin.com/in/yair-zafrany-8a207b192/"><span id="linked-in">linked-in</span></a>.
+                </p>    
+            </div>
+        </div>
+
+        <hr class="seperator">
+        <!-- projects / skills-->
+        <div class="sect-container" id="projects">
+            
+            <span class="sect-title sect-gen"><i class="fas fa-laptop-code"></i> My Projects.</span>
+            <div  class="sect-content sect-gen">
+                <p>
+                sfagaslgnklsangklsagnlksanglksnglksanglksanbglksaglasnfffffffffffkfklsnfas
+                </p>    
+            </div>
+        </div>
+
+        <hr class="seperator">
+
+        <!-- scripts -->
+        <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+        <div id="sighn-off">
+                <hr id="sig-hr">
+                <span id="signature">© 2019 - Jair Zefran.</span>
+                
+                
+        </div>
+        <!--jquery and bootstrap-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>  
+        
+        <!--site effetcs-->
+        <script src="js/index.js"></script>
+	</body>
+</html>

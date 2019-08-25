@@ -1,0 +1,293 @@
+
+
+/********* nav bar */
+#navb
+{
+    background-color: #2b3749; 
+    position: fixed;
+    padding: 0 1.5%;
+    margin: 0;
+    border-bottom-right-radius: 0.8rem;
+    
+    z-index:10 ;
+
+}
+#navb a
+{
+    color:#ffffff;
+    font-size: 1rem;
+}
+
+.nav-item
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+.btn-link
+{
+    padding: 0.3rem 4rem;
+    margin:0;
+    color: #bbe4ff; 
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.btn-link:hover
+{
+      
+    border-style: solid; 
+    border-width: 1px;
+    border-color: white; 
+    color: #0099ff;
+    background-color: #212142;
+    
+}
+.btn-link:active
+{
+      
+    border-style: solid; 
+    border-width: 1px;
+    border-color: lime; 
+    color: lime;
+    background-color: #b3b3b3;
+    
+}
+
+/************* top section */
+#site-header
+{
+    padding: 5% 0%;
+    padding-bottom:7.5%;
+    background-image: url("../img/servers_header.jpg");
+    background-size: cover; 
+    border-bottom-style: ridge;
+    border-width: 0.5%;
+    /*border-color: #727272;*/
+    border-color: #65a2c5;
+    /*background-repeat:repeat;
+    height:100%;
+    width:100%;*/
+ 
+}
+#title
+{
+    padding: 0% 2%;
+    font-size: 3.2rem;
+    /*font-family: 'Patua One', cursive;*/
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #00aeff;
+
+}
+.console-text
+{
+    color:#57e657;
+    font-size: 1.2rem;
+    font-family: 'Press Start 2P', cursive;
+}
+#console
+{
+    background-color: #1d1d3a;
+    padding: 0.8% 1%;
+    padding-bottom: 0%;
+    margin: 2% 50% 0% 2%;
+    border-style: ridge; 
+    border-width: 0.1%;
+    border-color: #727272;
+    
+    border-radius: 1.2rem;
+}
+
+@media (max-width: 900px)
+{
+    #site-header
+    {
+        padding-top: 10%;
+       
+    }
+    #title
+    {
+        font-size: 1.8rem;
+        padding: 0% 0% 2% 2%;
+        color: #8cffff;
+
+    }
+    #console
+    {
+        
+        padding: 0.4% 0.5%;
+        margin: 2% 2% 0% 2%;
+       
+    }
+    .console-text
+    {
+        
+        font-size: 0.6rem;
+        
+    }
+}
+
+/* body */
+body
+{
+    background-color: #1d1d3a;
+    
+    
+}
+#bganima
+{
+    /*width: 100%;
+    height: 3000px;*/
+    position: absolute;
+    z-index: -10;
+}
+/* hr sperator*/
+.seperator
+{
+    border-style: none;
+    border-top-style: dotted; 
+    border-width: 1rem;
+    text-align: center;
+    width: 10%;
+    border-color:#88e7ff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+}
+@media (max-width: 900px)
+{
+    .seperator
+    {
+        border-width: 0.5rem;
+        width: 30%; 
+    }
+}
+
+/*********** text style */
+.sect-title
+{
+    font-family: 'Patua One', cursive;
+    
+    font-size: 2.5rem;
+}
+.sect-content
+{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.2rem;
+    line-height: 2.1rem;
+    padding-top:2%;
+    text-align: justify;
+    font-weight: bold;
+    
+}
+.sect-gen
+{
+    color: #b7e0f8;
+    opacity: 2rem;
+}
+.sect-container
+{
+    padding: 5% 30% 10% 5%;
+    /*margin: 0% 2.5% 0% 2.5%;
+    background-color:rgba(2,47,65,1);*/
+    background-color:rgba(85, 91, 104, 0.5);
+    
+    /*border-right-style:ridge;
+    border-left-style:groove;*/
+    border-top-style: groove;
+    border-bottom-style: ridge;
+    /*border-style: solid;*/ 
+    border-color: #88e7ff;
+    /*border-width: 10px;
+    border-radius: 1rem;*/
+    
+    
+}
+
+@media (max-width: 900px)
+{
+    .sect-title
+    {
+        font-size: 1.2rem;
+    }
+    .sect-content
+    {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .sect-container
+    {
+       
+        padding: 5% 5% 10% 3.5%;
+        margin:0%;
+    }
+}
+/*********** about me */
+#skills-dropdown
+{
+    background-color:#4aff4a;
+    color: black;
+    font-size: 1.6rem;
+    border-radius: 1.6rem;
+    font-family: 'Prompt', sans-serif;
+    padding: 0.5% 1% 0.5% 1%;
+}
+#skills-table
+{
+
+}
+/*********** conatct me */
+#my-email
+{
+    /*font-family: 'Prompt', sans-serif;*/
+    background-color: #ffffff;
+    color: black;
+    border-radius: 1.3rem;
+    padding: 0.2% 2%; 
+}
+#linked-in
+{
+    /*font-family: 'Prompt', sans-serif;*/
+    background-color: #3284ff;
+    color: #ffffff;
+    border-radius: 1.3rem;
+    padding: 0.2% 2%; 
+}
+
+
+
+
+/*********** bottom page */
+#sighn-off
+{
+    padding: 0%;
+    margin-top: 10%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    
+}
+
+#signature
+{
+    font-family: 'Great Vibes', cursive;
+    color: #535353;
+    font-size: 3rem;
+}
+#sig-hr
+{
+    border-style: none;
+    border-top-style: groove;
+    border-color: #535353;
+    border-width: 0.2rem; 
+}
+
+@media (max-width: 900px)
+{
+    #signature
+    {
+        font-size: 1.8rem;
+    }
+}

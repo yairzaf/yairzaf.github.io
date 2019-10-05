@@ -52,7 +52,7 @@ var blinker = $("#blinker");
 setInterval(function(){blinker.fadeOut(600).fadeIn(600)},1400);
 
 /** ================================================================================= */
-/**japanese characters flowing background */
+/**dynamic background */
 
 
 var can=$("#bganima")
@@ -73,11 +73,12 @@ function update_res()
 var res=update_res();
 canvas.height=res[0];
 canvas.width=res[1];
-//var ctx = canvas.getContext("2d");
-//ctx.fillStyle = "#FF0000";
-//ctx.fillRect(0,0,3,3);
-//setTimeout(()=>{ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)},2000);
 
+/*
+var ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0,0,3,3);
+setTimeout(()=>{ctx.clearRect(0, 0, this.canvas.width, this.canvas.height)},2000);
 function flake(x,y)
 {
     this.pos=[x,y];
@@ -142,3 +143,4 @@ function flake_move(flk,can)
 }
 
 
+*/

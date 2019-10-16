@@ -294,7 +294,18 @@ body
 }
 @media (max-width: 900px)
 {
-
+    .project-title
+    {
+        font-size: 1rem;
+    }
+    .project-tag
+    {
+        font-size:0.8rem;
+    }
+    .project-desc
+    {
+        font-size: 0.6rem;
+    }
 }
 /*********** about me */
 #skills-dropdown

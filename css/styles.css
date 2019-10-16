@@ -100,6 +100,22 @@
     
     border-radius: 1.2rem;
 }
+#resume
+{
+    margin-left: 3%;
+    margin-top:1% ;
+    font-family: 'Patua One', cursive;
+    color: #cad1d1;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: -1px 0 #003d66, 0 1px #003d66, 1px 0 #003d66, 0 -1px #003d66;
+}
+#resume button
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-shadow: -1px 0 #003d66, 0 1px #003d66, 1px 0 #003d66, 0 -1px #003d66;
+}
 
 @media (max-width: 900px)
 {
@@ -224,6 +240,31 @@ body
         padding: 5% 5% 10% 3.5%;
         margin:0%;
     }
+}
+/*********** project */
+.project-cont
+{
+    
+}
+.project-title
+{
+
+}
+.project-desc
+{
+
+}
+.project-live
+{
+
+}
+.project-src
+{
+
+}
+.project-tech
+{
+
 }
 /*********** about me */
 #skills-dropdown

@@ -144,6 +144,14 @@
         font-size: 0.6rem;
         
     }
+    #resume
+    {
+        font-size: 0.9rem;
+    }
+    #resume button
+    {
+        font-size: 0.9rem;
+    }
 }
 
 /* body */
@@ -245,24 +253,46 @@ body
 .project-cont
 {
     
+    margin-bottom: 3%;
+    padding: 2%;
 }
 .project-title
 {
-
+    font-family: 'Patua One', cursive;
+    font-size: 2rem;
+    color: whitesmoke;
 }
 .project-desc
 {
-
+    font-size: 1rem;
+    color: seashell;
+}
+.project-tag
+{
+    border-radius: 1rem ;
+    padding: 0% 1% 0% 1%;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 1.5% ;
+    font-size: 1.4rem;
 }
 .project-live
 {
-
+    background: lime;
+    color: darkgoldenrod;
 }
 .project-src
 {
-
+    background: lightgray;
+    color: midnightblue;
 }
 .project-tech
+{
+    font-size: 0.9rem;
+    color: darkseagreen;
+}
+@media (max-width: 900px)
 {
 
 }

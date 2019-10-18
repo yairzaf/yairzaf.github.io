@@ -272,7 +272,7 @@ body
 {
     border-radius: 1rem ;
     padding: 0% 1% 0% 1%;
-    border: black;
+    
     border-style: solid;
     border-width: 1px;
     margin-right: 1.5% ;
@@ -280,11 +280,13 @@ body
 }
 .project-live
 {
-    background: lime;
-    color: darkorange;
+    border: darkslategray;
+    background: palegreen;
+    color: red;
 }
 .project-src
 {
+    border: gainsboro;
     background: lightgray;
     color: midnightblue;
 }

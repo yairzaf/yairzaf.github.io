@@ -284,11 +284,21 @@ body
     background: palegreen;
     color: red;
 }
+.project-live:hover
+{
+    
+    background: lime;
+    
+}
 .project-src
 {
     border: gainsboro;
     background: lightgray;
     color: midnightblue;
+}
+.project-src:hover
+{  
+    background: snow;  
 }
 .project-tech
 {

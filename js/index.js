@@ -34,13 +34,15 @@ function anim(i,del,str)
        
 }
 
-var welcome = ["Welcome. . .","sudo ./jobmarket | grep \"junior\"","Maybe you need a game developer?","You can always mail me.","Have you seen my projects?","enjoy your stay. . .             "];
+var welcome = ["Welcome. . .","sudo ./jobmarket | grep \"cool stuff\"","I do Graphics, Networking, Linux, Machine Learning","You can always mail me.","Have you seen my repo's & contributions?","enjoy your stay. . .             "];
 var quotes =["still here?             ","here are some quotes.",'“Tell me and I forget.  Teach me and I remember.  Involve me and I learn.”','“A computer once beat me at chess, but it was no match for me at kick boxing.”','“I do not fear computers. I fear lack of them.”','“What i cannot create, i do not understand.”'];
 var timeout=0;
-for(var i=0;i<welcome.length;i++)
+var all = welcome.concat(quotes);
+
+for(var i=0;i<all.length;i++)
 {
-    setTimeout(console_anim,timeout,welcome[i]);
-    timeout+=calc_delay(welcome[i])+100;
+    setTimeout(console_anim,timeout,all[i]);
+    timeout+=calc_delay(all[i])+100;
 }
 /*for(var i=0;i<quotes.length;i++)
 {

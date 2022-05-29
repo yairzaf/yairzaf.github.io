@@ -97,9 +97,9 @@
     margin: 2% 50% 0% 2%;
     border-style: ridge; 
     border-width: 0.1%;
-    border-color: #727272;
+    border-color: #0051ff;
     
-    border-radius: 1.2rem;
+    /*border-radius: 1.2rem;*/
 }
 #resume
 {
